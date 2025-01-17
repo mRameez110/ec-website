@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+
+.navbar {
+    background-color:darkgray;
+    padding: 15px 0;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+
+.navbar-container{
+    width: 90%;
+    /* background-color: red; */
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-links {
+    /* background-color: green; */
+    display: flex;
+    list-style: none;
+}
+
+.navbar-links li{
+    margin: 0 10px;
+}
+
+.navbar-links a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+#home{
+    height: 60vh;
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#home h2 {
+    
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+#home p{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.btn {
+    background-color:brown;
+    color: white;
+    padding: 10px 20px;
+    
+    border-radius: 50px;
+    text-decoration: none;
+    
+}
+
+
+.btn:hover {
+    background-color: #e55347;
+    font-weight: bold;
+}
+
+
+
+.products{
+    padding: 50px 0;
+    background-color: white;
+    text-align: center;
+}
+
+
+
+
+.product-title {
+    /* background-color: red; */
+    font-size: 40px;
+    margin-bottom: 50px;
+
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product-card{
+    background-color: #e55347;
+    border-radius: 20px;
+    width: auto;
+    padding: 4px;
+    margin: 20px;
+    text-align: center;
+    background-color: gainsboro;
+    transition: transform 0.3s;
+}
+
+.product-card img{
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.price {
+    font-size: 20px;
+    color: green;
+    margin-bottom: 15px;
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+}
+
+
+.contact{
+    line-height: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
