@@ -139,7 +139,7 @@ body {
 
 .contact{
     line-height: 50px;
-    background-color: black;
+    background-color: pink;
     display: flex;
     justify-content: space-around;
 }
